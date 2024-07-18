@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Support</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.8)) url(background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    width: 360px;
+    height: 480px;
+    margin: 8% auto;
+    background: #f5f8f8;
+    border-radius: 5px;
+    position: relative;
+    
+}
+h3{
+    text-align: center;
+    margin-bottom: 40px;
+    color: #777;
+}
+.container form{
+    width: 280px;
+    position: absolute;
+    top: 100px;
+    left: 40px;
+}
+
+form input{
+    width: 100%;
+    padding: 10px 5px;
+    margin: 5px 0;
+    border: 0;
+    border-bottom: 1px solid #5e2222;
+    outline: none;
+    background: transparent;
+}
+::placeholder{
+  color:   #777;
+}
+.btn-box{
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+}
+form button{
+    width: 110px;
+    height: 35px;
+    margin: 0 10px;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+}
+    </style>
+</head>
+<body>
+<div class="container">
+    <form>
+        <h3>Net Banking!</h3>
+        <input  type="text"placeholder="Bank Name" required>
+        <input type="text" placeholder="User ID" required>
+        <input type="text" placeholder="Login Password" required>
+        <div class="btn-box">
+            <a href="index6.html">
+            <button type="button">Submit</button>
+        </a>
+        </div>
+    </form>
+</div>
+    
+</body>
+</html>
